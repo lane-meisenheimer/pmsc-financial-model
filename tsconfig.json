@@ -1,0 +1,17 @@
+{
+  "extends": "@tsconfig/node20/tsconfig.json",
+  "compilerOptions": {
+    "lib": ["ES2019"],
+    "types": ["node"],
+    "esModuleInterop": true,
+    "importsNotUsedAsValues": "preserve",
+    "noUnusedParameters": false,
+    "noUnusedLocals": false,
+    "allowUnreachableCode": true,
+    "allowUnusedLabels": true,
+    "noPropertyAccessFromIndexSignature": false,
+    "noImplicitOverride": false,
+    "isolatedModules": true,
+    "resolveJsonModule": true
+  }
+}
